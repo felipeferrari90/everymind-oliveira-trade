@@ -17,7 +17,7 @@ o programa ira se iniciar em um servidor local na porta 3000
 
 ## Rotas
 
-você pode executar rotas post via postman ou CURL
+você pode executar rotas post via postman ou CURL, o corpo da requisição e o valor dos campos é mostrado no exemplo abaixo
 
 ```python
 
