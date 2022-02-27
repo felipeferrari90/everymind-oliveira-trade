@@ -22,10 +22,10 @@ você pode executar rotas post via postman ou CURL, o corpo da requisição e o 
 ```python
 
 
-# rota '/signin' que ira retornar uma mensagem de login e um token jwt e o objeto do usuario
+# rota '/signup' que ira retornar uma mensagem com status da operaçao e se for um sucesso retorna o objeto do usuario
 curl -d "name=felipe&cpf=111.111.111-11&email=felipe@gmail.com&password=12345" -X POST http://localhost:3000/signup
 
-# rota '/signup' que ira retornar uma mensagem de cadastro com status da operação,e o objeto do usuario se for cadastrado com sucesso
+# rota '/signin' que ira retornar uma mensagem com status da operaçao e se for um sucesso retorna o objeto do usuario e um token JWT
 curl -d "email=felipe@gmail.com&password=12345" -X POST http://localhost:3000/signin
 
 ```
